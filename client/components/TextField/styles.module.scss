@@ -1,0 +1,40 @@
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+
+    label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+.input{
+    height: 48px;
+    box-sizing: border-box;
+    border: 2px solid var(--another-color);
+    border-radius: 5px;
+    background-color: var(--secondary-background);
+    font-size: 16px;
+    padding: 0px 12px;
+    background-color: #fff;
+}
+
+.input:focus {
+    outline: 2px #2684ff solid;
+}
+
+.ErrorMessage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px rgb(191, 3, 3) solid;
+    border-radius: 3px;
+    color: rgb(191, 3, 3);
+    font-size: 11px;
+}

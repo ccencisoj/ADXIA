@@ -1,0 +1,6 @@
+PUT http://localhost:4000/api/product?productId=bb0a5242-359d-42c1-88d9-d424a772f3ec
+Content-Type: application/json
+
+{
+  "name": "leche klim"
+}

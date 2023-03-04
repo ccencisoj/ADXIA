@@ -1,0 +1,21 @@
+.textFieldContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+    width: 100%;
+
+    textarea{
+        padding: 15px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 2px #e5e5ee solid;
+    }
+
+    .textarea:hover {
+        border: 2px var(--primary-background) solid;
+    }
+}

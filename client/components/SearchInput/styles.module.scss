@@ -1,0 +1,52 @@
+.formSearch{
+    position: relative;
+    margin-top: 15px;
+    width: 91.33333%;
+    height: 90%;
+}
+
+.input{
+    border: none;
+    border-radius: 5px;
+    padding: 0px 15%;
+    width: 100%;
+    height: 50px;
+    color: #000;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: #999;
+}
+
+.input:focus {
+    outline: 5px #fff4 solid;
+}
+
+.iconSearch{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: var(--primary-background);
+}
+
+.button {
+    top: 5px;
+    right: 8px;
+    height: 40px;
+    color: #fff;
+    padding: 0px 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    background-color: var(--primary-background);
+    border: 0px;
+}
+
+.button:active {
+    background-color: #012355;
+}

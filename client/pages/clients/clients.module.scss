@@ -1,0 +1,10 @@
+.searchHeader{
+    height: 9em;
+    background-color: var(--primary-background);
+}
+
+.containerClientList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

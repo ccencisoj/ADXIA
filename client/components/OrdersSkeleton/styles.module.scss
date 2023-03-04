@@ -1,0 +1,38 @@
+.ordersSkeleton {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardSkeleton {
+  width: 100%;
+  display: flex;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: #fff;
+
+  .topContainer {
+    gap: 12px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 12px;
+
+    .leftColumn {
+      
+    }
+
+    .rightColumn {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .downContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

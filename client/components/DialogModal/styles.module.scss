@@ -1,0 +1,79 @@
+.dialogModal {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 10000;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fffc;
+  // hidden
+  opacity: 0;
+  visibility: hidden;
+  transition: all 100ms;
+
+  .container {
+    width: 90%;
+    padding: 24px 24px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 32px 60px rgba(0, 0, 0, 0.1);
+    // hidden
+    opacity: 0;
+    visibility: hidden;
+    transition: all 300ms;
+    transform: translateY(20px) scale(0.9);
+
+    .header {
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      border-bottom: 1px #e5e5ee solid;
+
+      .title {
+        font-size: 24px;
+        font-weight: 600;
+      }
+    }
+
+    .main {
+      width: 100%;
+      display: flex;
+      padding: 12px 0px;
+      box-sizing: border-box;
+      flex-direction: column;
+    }
+  }
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+  transition: all 100ms;
+
+  .container {
+    opacity: 1;
+    visibility: visible;
+    transition: all 200ms 100ms;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 100ms 200ms;
+
+  .container {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 200ms;
+    transform: translateY(20px) scale(0.6);
+  }
+}

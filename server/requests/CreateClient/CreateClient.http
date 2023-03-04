@@ -1,0 +1,13 @@
+POST http://localhost:4000/api/client
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIxODI2Mzg4Yy1kZDBiLTRhMDAtYTRiYy1kMWRjOTBkOGFmODEiLCJpZCI6ImM2NGQ4MmE3LTBmZWEtNDQ5YS05ZTJjLTQ5MzczYTJmNjM5YyIsInR5cGUiOiJBRE1JTiIsImlhdCI6MTY3MDExMTE4OX0.bozYd-Oroy7Hi_Es9cng2k6uoJSp4K9xiDxIXWXhWLc
+
+{
+  "name": "andres",
+  "surname": "enciso",
+  "nroDocument": "1006692250",
+  "phoneNumber": "+57 3116537527",
+  "address": "cra 6 #16-66",
+  "imageURL": "http://localhost:4000/api/tempImage/ae8b2234-f673-4a4e-b7f0-0a2802c06d65",
+  "business": "Tienda 123"
+}

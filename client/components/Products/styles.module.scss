@@ -1,0 +1,7 @@
+.products {
+  gap: 12px;
+  width: 100%;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(2, calc(50% - 6px));
+}

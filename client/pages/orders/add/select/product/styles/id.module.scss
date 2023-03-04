@@ -1,0 +1,17 @@
+.formContainer {
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .productCard {
+        width: 200px;
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+}

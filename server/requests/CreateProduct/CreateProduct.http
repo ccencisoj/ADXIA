@@ -1,0 +1,12 @@
+POST http://localhost:4000/api/product
+Content-Type: application/json
+
+{
+  "name": "a",
+  "brand": "Nestle",
+  "avaliableQuantity": 20,
+  "price": 2500,
+  "imageURL": "http://localhost:4000/api/tempImage/d006cdc0-77af-47dd-aff3-5eb66ecbc7df",
+  "description": "un producto",
+  "grammage": "x250"
+}

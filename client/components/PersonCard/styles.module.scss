@@ -1,0 +1,36 @@
+.cardContainer{
+    gap: 12px;
+    display: flex;
+    position: relative;
+    padding: 12px 12px;
+    border-radius: 5px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+
+.infoPerson{
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    span{
+        font-size: 12px;
+        font-weight: 500;
+        color: #999;
+    }
+}
+
+.options {
+    width: 40px;
+    height: 40px;
+    right: 12px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}

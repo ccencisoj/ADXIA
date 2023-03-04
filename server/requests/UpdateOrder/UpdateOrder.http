@@ -1,0 +1,6 @@
+PUT http://localhost:4000/api/order?orderId=5a0c3c56-fb49-4312-8744-230d7d6fe26d
+Content-Type: application/json
+
+{
+  "deliveryState": "NO_DELIVERED"
+}

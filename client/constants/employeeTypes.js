@@ -1,0 +1,3 @@
+export const EMPLOYEE_TYPE_ADMIN = "ADMIN";
+export const EMPLOYEE_TYPE_VENDOR = "VENDOR";
+export const EMPLOYEE_TYPE_DELIVERER = "DELIVERER";

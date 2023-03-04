@@ -1,0 +1,28 @@
+.productsSkeleton {
+  gap: 12px;
+  width: 100%;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(2, calc(50% - 6px));
+}
+
+.cardSkeleton {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: #fff;
+
+  .topSide {
+
+  } 
+
+  .bottomSide {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+}

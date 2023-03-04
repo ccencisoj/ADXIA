@@ -1,0 +1,28 @@
+.searchHeader{
+    height: 9em;
+    background-color: var(--primary-background);
+}
+
+.ordersList{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6.25em;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.125em;
+    height: 3.125em;
+    border-radius: 50%;
+    background-color: var(--primary-background);
+}

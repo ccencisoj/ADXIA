@@ -1,0 +1,65 @@
+.backgroundModal{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    // hidden
+    opacity: 0;
+    visibility: hidden;
+    transition: all 100ms;
+}
+
+.preContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+}
+
+.modalOptionsContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 10.75em;
+    bottom: 0;
+    background-color: #fff;   
+    // hidden
+    opacity: 0;
+    visibility: hidden;
+    transition: all 100ms;
+    transform: translateY(50px);
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transition: all 100ms;
+    
+    .modalOptionsContainer {
+      opacity: 1;
+      visibility: visible;
+      transition: all 100ms 100ms;
+      transform: translateY(0px);
+    }
+  }
+  
+  .hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 100ms 100ms;
+  
+    .modalOptionsContainer {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 100ms;
+      transform: translateY(50px);
+    }
+  }
+  

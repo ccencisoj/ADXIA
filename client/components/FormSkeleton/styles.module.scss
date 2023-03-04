@@ -1,0 +1,16 @@
+.formSkeleton {
+  flex: 1;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageSkeleton {
+  width: 100%;
+}
+
+.fieldSkeleton {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}

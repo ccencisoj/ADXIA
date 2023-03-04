@@ -1,0 +1,10 @@
+POST http://localhost:4000/api/order
+Content-Type: application/json
+
+{
+  "clientId": "ecb59390-fdf9-4858-994b-c58157132741",
+  "products": [
+    {"productId": "9ac0f07c-c503-459d-bc55-06fd1f885377", "quantity": 4}
+  ]
+}
+ 
